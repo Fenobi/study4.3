@@ -163,18 +163,22 @@
 //	return 0;
 //}
 
-#include <stdio.h>
+//#include <stdio.h>
+//void test(int** p)
+//{
+//	**p=20;
+//}
+//int main()
+//{
+//	int a = 1;
+//	int* pa = &a;//一级指针
+//	int** ppa = &pa;//二级指针
+//	test(ppa);
+//	test(&pa);
+//	int* arr[10] = { 0 };
+//	test(arr);
+//	
+//	printf("%d\n", a);
+//	return 0;
+//}
 
-void test(int** p)
-{
-	**p=20;
-}
-int main()
-{
-	int a = 1;
-	int* pa = &a;//一级指针
-	int** ppa = &pa;//二级指针
-	test(ppa);
-	printf("%d\n", a);
-	return 0;
-}
